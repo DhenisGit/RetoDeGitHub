@@ -4,16 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:gravity="center"
     android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".MainActivity">
 
+
+    <EditText
+        android:id="@+id/TxtTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:hint="@string/name" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEnvio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/boton"
-        android:onClick="Mensaje" />
+        android:onClick="Envio"
+        android:text="@string/boton2" />
 
 </LinearLayout>

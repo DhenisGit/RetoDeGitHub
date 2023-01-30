@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Subir_GitHub</string>
     <string name="boton">Mensaje de Bienvenida</string>
+    <string name="boton2">Enviar Datos</string>
+    <string name="name">Escribe tu nombre porfavor</string>
 </resources>
